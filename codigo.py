@@ -7,8 +7,8 @@ def calcular_media(notas):
   
 def verificar_aprovação(media):
   if media >= 6:
-    print("Aluno Aprovado :)")
+    print('Aluno Aprovado :)')
   else:
-    print("Aluno Reprovado :(")
+    print('Aluno Reprovado :(')
 	
 calcular_media([10, 9, 8, 7])
