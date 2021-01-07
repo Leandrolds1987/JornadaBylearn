@@ -2,7 +2,7 @@ def calcular_media(notas):
   quantidade = len(notas)
   soma = sum(notas)
   media = soma / quantidade
-  print("O aluno tirou", media)
+  print('O aluno tirou', media)
   verificar_aprovação(media)
   
 def verificar_aprovação(media):
